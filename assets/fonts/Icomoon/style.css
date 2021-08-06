@@ -93,6 +93,12 @@ header #toggle:after{
   background-size: 400%;
   animation: animate 8s linear infinite;
 }
+.centeri{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* .icon-pp-behance:before {
   content: "\e900";
 }
