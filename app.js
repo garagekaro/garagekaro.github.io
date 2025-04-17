@@ -10,7 +10,7 @@ function showHome() {
   document.getElementById("onboarding").classList.add("hidden");
   document.getElementById("home").classList.remove("hidden");
 }
-*/
+
 
 
 // app.js
@@ -40,3 +40,19 @@ function showHome() {
     home.classList.remove("hidden");
   }
 }
+*/
+ document.addEventListener("DOMContentLoaded", function () {
+      const splash = document.getElementById("splash");
+      const onboarding = document.getElementById("onboarding");
+      const home = document.getElementById("home");
+
+      setTimeout(() => {
+        splash.classList.add("hidden");
+        onboarding.classList.remove("hidden");
+      }, 3000);
+    });
+
+    function showHome() {
+      document.getElementById("onboarding").classList.add("hidden");
+      document.getElementById("home").classList.remove("hidden");
+    }
